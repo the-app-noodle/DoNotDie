@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DoNotDie" x:Class="DoNotDie.MainPage">
+    <StackLayout>
+        
+        <Label Text="Avoid triggering the bomb!" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Label Text="Points: "/>
+        
+        <Button Text="1"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+        <Button Text="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+        <Button Text="3"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+            
+        
+    </StackLayout>
+</ContentPage>
